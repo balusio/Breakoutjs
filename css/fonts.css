@@ -1,0 +1,43 @@
+
+@font-face {
+	font-family: 'AvenirLTStd-Black';
+	src: url('../font/AvenirLTStd-Black.eot');
+	src: url('../font/AvenirLTStd-Black.woff') format('woff'),
+		 url('../font/AvenirLTStd-Black.ttf') format('truetype'),
+		 url('../font/AvenirLTStd-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirLTStd-Roman';
+	src: url('../font/AvenirLTStd-Roman.eot');
+	src: url('../font/AvenirLTStd-Roman.woff') format('woff'),
+		 url('../font/AvenirLTStd-Roman.ttf') format('truetype'),
+		 url('../font/AvenirLTStd-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'arcadeclassicregular';
+    src: url('../font/arcadeclassic-webfont.eot');
+    src: url('../font/arcadeclassic-webfont.woff') format('woff'),
+         url('../font/arcadeclassic-webfont.ttf') format('truetype'),
+         url('../font/arcadeclassic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'adore-64';
+    src: url('../font/adore64-webfont.eot');
+    src: url('../font/adore64-webfont.woff') format('woff'),
+         url('../font/adore64-webfont.ttf') format('truetype'),
+         url('../font/adore64-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

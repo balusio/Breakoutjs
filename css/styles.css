@@ -1,0 +1,123 @@
+body{
+	overflow: hidden;
+}
+#imageToGlitch{
+	width: 100%;
+}
+#resizer,.resizer{
+position: 	absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100vh;
+z-index: 1100;
+background-color:#000000;
+display: none;
+
+}
+#resizer h1{
+font-size: 3rem;
+top:50%;
+
+-webkit-transform: translateY(-50%) ;
+-moz-transform: translateY(-50%) ;
+-ms-transform: translateY(-50%) ;
+-o-transform: translateY(-50%) ;
+transform: translateY(-50%) ;
+color: #ffffff;
+margin: auto;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+}
+#breakout{
+position: 	fixed;
+top:0;
+left: 0;
+
+z-index: 999;
+background-color: transparent;
+font-family: 'Press Start 2P', cursive;
+}
+.start-game{
+position: absolute;
+z-index: 1001;
+top:50%;
+left: 50%;
+-webkit-transform: translate(-50%,-50%) ;
+-moz-transform: translate(-50%,-50%) ;
+-ms-transform: translate(-50%,-50%) ;
+-o-transform: translate(-50%,-50%) ;
+transform: translate(-50%,-50%) ;
+margin: auto;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+color: #ffffff;
+display: none;
+}
+.start-game img{
+display: block;
+margin: 0px auto 120px auto;
+}
+.start-game h3, #backToEgo-mobile{
+font-size: 70px;
+-webkit-animation: intermitate .9s  infinite;
+-moz-animation: intermitate .9s  infinite;
+-ms-animation: intermitate .9s  infinite;
+-o-animation: intermitate .9s  infinite;
+animation: intermitate .9s  infinite;
+
+}
+.start-game h5{
+margin: 10px auto 120px auto;
+font-size: 30px;
+}
+.start-game p{
+color: #1f1f1f;
+font-size: 30px;
+margin-bottom: 10px;
+
+}
+.start-game a{
+	margin-top: 10px;
+}
+.start-game span{
+font-size: 30px;
+}
+#messageFinal{
+margin: 0px auto 120px auto;
+}
+@keyframes intermitate{
+0%{opacity: 1;}
+50%{opacity: 0;}
+100%{opacity: 1;}
+}
+@media(max-width: 1280px){
+.start-game img{
+	margin: 0px auto 70px auto;
+}
+.start-game {
+	margin: 10px auto 70px auto;
+}
+}
+@media (max-width: 640px){
+.start-game img{
+	width: 90px;
+	margin: 0px auto 50px auto;
+
+}
+.start-game h5{
+	font-size: 1.1rem;
+	margin: 0px auto 50px auto;
+}
+.start-game p{
+font-size: 1rem;
+margin-top: 15px;
+width: 187px;
+display: block;
+margin: 10px auto;
+}
+.start-game h3{
+	font-size: 2rem;
+	    width: 300px;
+}
+}
