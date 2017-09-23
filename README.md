@@ -1,7 +1,7 @@
 # Breakoutjs
 Breakout javascript game with ES5, learning object oriented pattern (Prototype) in JS and canvas experiment glitch images.
 
-feel free to pull, change and contribute to improve
+feel free to pull, change and contribute to improve <br />
 All messages and reviews of code are welcome, this is a learning and experimental project with no commercial porpouses.
 
 1976 breakout tribute to Nolan Bushnell <br />
